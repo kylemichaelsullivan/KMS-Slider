@@ -1,6 +1,6 @@
 jQuery(document).ready(($) => {
 	const sliderNavs =
-		'<button type="button" class="slider-nav slider-prev" title="Previous Event">&lt;</i></button><button type="button" class="slider-nav slider-next" title="Next Event">&gt;</i></button>';
+		'<button type="button" class="slider-nav slider-prev" title="Previous">&lt;</i></button><button type="button" class="slider-nav slider-next" title="Next">&gt;</i></button>';
 
 	let isDragging = false;
 	let draggingID = null;
