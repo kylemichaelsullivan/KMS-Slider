@@ -90,6 +90,6 @@
 	user-select: none;
 }
 
-.kms-slider.has-slides .slider-navs {
-	display: flex;
+.kms-slider:not(.has-slides) .slider-nav {
+	display: none;
 }
